@@ -1,0 +1,14 @@
+{
+  "name": "quickguard-server",
+  "version": "1.0.0",
+  "description": "QuickGuard API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

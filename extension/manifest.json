@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "QuickGuard",
+  "version": "0.1.2",
+  "description": "فحص أمان الروابط من المتصفح.",
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://quickguard.onrender.com/*"
+  ]
+}
